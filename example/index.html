@@ -4,6 +4,10 @@
     <title>imooc datav libs example</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@3.0.0-beta.15/dist/vue.global.js"></script>
     <script src="../dist/imooc.datav.js"></script>
+    <!-- 这里使用的是vue3，在最后.use(imoocDatav)后可以使用组件testcomp， -->
+    <!-- 如果引用vue2.几的版本如何在html里引用组件，单纯vue.use()实现不了 -->
+    <!-- 最后问一下，老师讲的rollup生成的本地组件库针对vue3的，放在2的模版里就加载不了，如何生成vue2的组件库 -->
+    <!-- 多谢老师百忙之中帮助我 -->
   </head>
   <body>
     <div id="app">
